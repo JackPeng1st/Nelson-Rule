@@ -1,5 +1,5 @@
 '''Coding by JackPeng 彭家祐 '''
-
+# return True: 代表違反該rule --> 製程失控
 def nelson1(series):
     #任一點超過 平均加減3個標準差
     stddev = np.std(series)
